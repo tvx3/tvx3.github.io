@@ -21,7 +21,7 @@ if (watchlistdiv) {
         if (watchlistitems != item.id) {
             watchlistitems.push(item.id);
             a = document.createElement('a');
-            a.href = `./${item.id}/`;
+            a.href = `../${item.id}/`;
             img = document.createElement('img');
             img.src = item.poster;
             img.classList.add('img-thumbnail');
